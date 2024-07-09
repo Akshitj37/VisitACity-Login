@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E77B5329EF2174680829020 /* Pods_VisitACity_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333D048852A9C2C07DBAE96A /* Pods_VisitACity_Login.framework */; };
+		4657BA3F2C3B923D0092DA3C /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BA3B2C3B923D0092DA3C /* String + Extension.swift */; };
+		4657BA402C3B923D0092DA3C /* UIAlertController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BA3C2C3B923D0092DA3C /* UIAlertController + Extension.swift */; };
+		4657BA412C3B923D0092DA3C /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BA3D2C3B923D0092DA3C /* UIViewController + Extension.swift */; };
+		4657BA442C3B92460092DA3C /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BA422C3B92460092DA3C /* LoginTableViewController.swift */; };
+		4657BA472C3B92500092DA3C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BA452C3B92500092DA3C /* SignupViewController.swift */; };
 		46872E6C2C3B914C007C185E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46872E6B2C3B914C007C185E /* AppDelegate.swift */; };
 		46872E6E2C3B914C007C185E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46872E6D2C3B914C007C185E /* SceneDelegate.swift */; };
 		46872E702C3B914C007C185E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46872E6F2C3B914C007C185E /* ViewController.swift */; };
@@ -16,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		333D048852A9C2C07DBAE96A /* Pods_VisitACity_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisitACity_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		360502B6D08A27A3F42F0BC4 /* Pods-VisitACity-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisitACity-Login.release.xcconfig"; path = "Target Support Files/Pods-VisitACity-Login/Pods-VisitACity-Login.release.xcconfig"; sourceTree = "<group>"; };
+		43AF88A5143D17BECF79F824 /* Pods-VisitACity-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisitACity-Login.debug.xcconfig"; path = "Target Support Files/Pods-VisitACity-Login/Pods-VisitACity-Login.debug.xcconfig"; sourceTree = "<group>"; };
+		4657BA3B2C3B923D0092DA3C /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		4657BA3C2C3B923D0092DA3C /* UIAlertController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController + Extension.swift"; sourceTree = "<group>"; };
+		4657BA3D2C3B923D0092DA3C /* UIViewController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		4657BA422C3B92460092DA3C /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		4657BA452C3B92500092DA3C /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		46872E682C3B914C007C185E /* VisitACity-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VisitACity-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46872E6B2C3B914C007C185E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46872E6D2C3B914C007C185E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +45,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E77B5329EF2174680829020 /* Pods_VisitACity_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04ABEACB144753109C77E625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333D048852A9C2C07DBAE96A /* Pods_VisitACity_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4657BA3E2C3B923D0092DA3C /* Extension  */ = {
+			isa = PBXGroup;
+			children = (
+				4657BA3B2C3B923D0092DA3C /* String + Extension.swift */,
+				4657BA3C2C3B923D0092DA3C /* UIAlertController + Extension.swift */,
+				4657BA3D2C3B923D0092DA3C /* UIViewController + Extension.swift */,
+			);
+			path = "Extension ";
+			sourceTree = "<group>";
+		};
+		4657BA432C3B92460092DA3C /* Login  */ = {
+			isa = PBXGroup;
+			children = (
+				4657BA422C3B92460092DA3C /* LoginTableViewController.swift */,
+			);
+			name = "Login ";
+			path = "VisitACity-Login/Login ";
+			sourceTree = SOURCE_ROOT;
+		};
+		4657BA462C3B92500092DA3C /* Signup  */ = {
+			isa = PBXGroup;
+			children = (
+				4657BA452C3B92500092DA3C /* SignupViewController.swift */,
+			);
+			name = "Signup ";
+			path = "VisitACity-Login/Signup ";
+			sourceTree = SOURCE_ROOT;
+		};
+		4657BA492C3B92750092DA3C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				46872E712C3B914C007C185E /* Main.storyboard */,
+				46872E762C3B914D007C185E /* LaunchScreen.storyboard */,
+				46872E742C3B914D007C185E /* Assets.xcassets */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4657BA4A2C3B92B10092DA3C /* AppFile */ = {
+			isa = PBXGroup;
+			children = (
+				46872E6D2C3B914C007C185E /* SceneDelegate.swift */,
+				46872E6B2C3B914C007C185E /* AppDelegate.swift */,
+			);
+			path = AppFile;
+			sourceTree = "<group>";
+		};
 		46872E5F2C3B914B007C185E = {
 			isa = PBXGroup;
 			children = (
 				46872E6A2C3B914C007C185E /* VisitACity-Login */,
 				46872E692C3B914C007C185E /* Products */,
+				D1576C06B497ACE6D447A4E9 /* Pods */,
+				04ABEACB144753109C77E625 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,25 @@
 		46872E6A2C3B914C007C185E /* VisitACity-Login */ = {
 			isa = PBXGroup;
 			children = (
-				46872E6B2C3B914C007C185E /* AppDelegate.swift */,
-				46872E6D2C3B914C007C185E /* SceneDelegate.swift */,
+				4657BA4A2C3B92B10092DA3C /* AppFile */,
+				4657BA432C3B92460092DA3C /* Login  */,
+				4657BA462C3B92500092DA3C /* Signup  */,
+				4657BA3E2C3B923D0092DA3C /* Extension  */,
+				4657BA492C3B92750092DA3C /* Storyboard */,
 				46872E6F2C3B914C007C185E /* ViewController.swift */,
-				46872E712C3B914C007C185E /* Main.storyboard */,
-				46872E742C3B914D007C185E /* Assets.xcassets */,
-				46872E762C3B914D007C185E /* LaunchScreen.storyboard */,
 				46872E792C3B914D007C185E /* Info.plist */,
 			);
 			path = "VisitACity-Login";
+			sourceTree = "<group>";
+		};
+		D1576C06B497ACE6D447A4E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43AF88A5143D17BECF79F824 /* Pods-VisitACity-Login.debug.xcconfig */,
+				360502B6D08A27A3F42F0BC4 /* Pods-VisitACity-Login.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46872E7C2C3B914D007C185E /* Build configuration list for PBXNativeTarget "VisitACity-Login" */;
 			buildPhases = (
+				AC70E07CDDEF555E550A49B5 /* [CP] Check Pods Manifest.lock */,
 				46872E642C3B914C007C185E /* Sources */,
 				46872E652C3B914C007C185E /* Frameworks */,
 				46872E662C3B914C007C185E /* Resources */,
+				A1881181C1CADF86692D83E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +217,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1881181C1CADF86692D83E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisitACity-Login/Pods-VisitACity-Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisitACity-Login/Pods-VisitACity-Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisitACity-Login/Pods-VisitACity-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC70E07CDDEF555E550A49B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisitACity-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46872E642C3B914C007C185E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				46872E702C3B914C007C185E /* ViewController.swift in Sources */,
+				4657BA402C3B923D0092DA3C /* UIAlertController + Extension.swift in Sources */,
+				4657BA472C3B92500092DA3C /* SignupViewController.swift in Sources */,
 				46872E6C2C3B914C007C185E /* AppDelegate.swift in Sources */,
+				4657BA3F2C3B923D0092DA3C /* String + Extension.swift in Sources */,
+				4657BA412C3B923D0092DA3C /* UIViewController + Extension.swift in Sources */,
 				46872E6E2C3B914C007C185E /* SceneDelegate.swift in Sources */,
+				4657BA442C3B92460092DA3C /* LoginTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +418,7 @@
 		};
 		46872E7D2C3B914D007C185E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AF88A5143D17BECF79F824 /* Pods-VisitACity-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +446,7 @@
 		};
 		46872E7E2C3B914D007C185E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360502B6D08A27A3F42F0BC4 /* Pods-VisitACity-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
